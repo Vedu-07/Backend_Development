@@ -1,0 +1,62 @@
+Nodemon:
+nodemon is a tool that helps develop Node.js based applications by automatically restarting 
+the node application when file changes in the directory are detected.
+
+Mongoose:
+Mongoose is a JavaScript object-oriented programming library that creates a connection between MongoDB and the Node.js JavaScript runtime environment.
+
+[
+    mongodb://localhost:27017/dummydb
+    Here in place of localhost we can also write it as 120.0.0.1
+]
+
+[
+    Now The url present In .env folder needs to be imported in database.js for connection establishment i.e. url to go inside in process.env.[url] we have to install dotenv
+
+    Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env.
+]
+
+[
+    The process.exit() method is used to end the process which is running at the same time with an exit code in NodeJS.
+    It can be either 0 or 1. 0 means end the process without any kind of failure and 1 means end the process with some failure.
+]
+
+Models 
+[
+    Database Schema 
+]
+
+
+Controllers 
+[
+    Business Logic
+]
+
+Routes
+[
+    Paths -> Controllers
+]
+
+Config
+[
+    Database Configuration
+]
+
+[
+    const response—await Todo.create({title,description}); is actually creating a new
+    entry in your database using the create method of the Todo model.
+    Model Reference: Todo refers to your model, presumably representing a Todo item
+    or entity in your application.
+    .create() Method: This method is likely a built-in or custom method provided by the
+    ORM (Object-Relational Mapping) library or database driver you're using. It creates
+    a new record in the database table associated with the Todo model.
+    Data Passed: It's taking the title and description from the request body and
+    creating a new object based on those values.
+    Response: The response of this operation is stored in the response variable, which
+    might contain the newly created record in the database.
+    So, the line const response=await Todo.create({title, description}); essentially takes
+    the title and description from the request body, creates a new Todo object, and
+    inserts it into the database using the ORM or database driver's create method. The
+    response variable likely holds information about the newly created Todo entry,
+    which is then sent back as part of the API response.
+]
