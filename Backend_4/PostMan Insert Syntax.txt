@@ -1,0 +1,20 @@
+For Liking : [
+    post: "post id"
+    user: ""
+]
+
+For Unliking : [
+    post: "post id"
+    like: ""like id"
+]
+
+For Commenting : [
+    post: "post id"
+    user: "name"
+    body:"comment"
+]
+
+for Post Creation : [
+    title:""
+    body:""
+]
