@@ -4,3 +4,4 @@
   ### 3) GET,PUT,POST,DELETE Requests Using Postman
   ### 4) Simple Project (Frontend + Backend) How The Connection Between Frontend And Backend Happens.
   ### 5) JWT and Cookies
+  ### 6) AuthZ and AuthN
