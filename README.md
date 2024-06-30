@@ -5,3 +5,4 @@
   ### 4) Simple Project (Frontend + Backend) How The Connection Between Frontend And Backend Happens.
   ### 5) JWT and Cookies
   ### 6) AuthZ and AuthN
+  ### 7) FileUpload & Email Functionality Using Cloudinary & Nodemailer
